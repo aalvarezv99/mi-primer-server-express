@@ -8,7 +8,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 //middlewares
-//app.use(morgan('combined'));
+//app.use(morgan('combined')); 
 
 //routs
 app.get('/', (req, res) => {
